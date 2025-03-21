@@ -5,7 +5,7 @@ MODULE_NAME := $(shell basename $(shell git rev-parse --show-toplevel 2>/dev/nul
 all: init test
 
 init:
-	go mod tidy
+	@chmod +x init.sh && ./init.sh
 
 clean:
 	go clean -testcache
