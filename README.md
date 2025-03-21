@@ -1,1 +1,1 @@
-# go-batch-app
+# go-kit-library
